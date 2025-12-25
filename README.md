@@ -18,8 +18,6 @@ Here’s how the dashboard looks:
 
 ![LeadFlow Dashboard](https://leadflow-pied.vercel.app/screenshot.png)
 
-*(Replace the placeholder URL with your actual screenshot image URL if you have one.)*
-
 ---
 
 ## ⚡ Features
