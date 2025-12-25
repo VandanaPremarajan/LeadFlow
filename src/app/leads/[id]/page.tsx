@@ -46,10 +46,6 @@ export default function LeadDetailsPage() {
           <strong>Status:</strong>{' '}
           <StatusBadge status={lead.status} />
         </p>
-        <p>
-          <strong>Created:</strong>{' '}
-          {new Date(lead.createdAt).toLocaleDateString()}
-        </p>
       </div>
 
       <div>

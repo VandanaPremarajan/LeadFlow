@@ -7,5 +7,5 @@ export interface Lead {
   phone?: string;
   company?: string;
   status: LeadStatus;
-  createdAt: string;
+  createdAt?: string; //optional
 }

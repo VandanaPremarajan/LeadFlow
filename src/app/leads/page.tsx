@@ -50,16 +50,14 @@ export default function LeadsPage() {
           placeholder="Search leads..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          className="flex-1 rounded-md border border-slate-200 px-3 py-2 text-sm
-               focus:outline-none focus:ring-2 focus:ring-slate-900"
+          className="flex-1 rounded-md border border-slate-200 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-slate-900"
         />
 
         {/* Status Filter */}
         <select
           value={status}
           onChange={(e) => setStatus(e.target.value as any)}
-          className="w-full sm:w-48 rounded-md border border-slate-200 px-3 py-2 text-sm
-               focus:outline-none focus:ring-2 focus:ring-slate-900"
+          className="w-full sm:w-48 rounded-md border border-slate-200 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-slate-900"
         >
           <option value="All">All Status</option>
           <option value="New">New</option>

@@ -3,14 +3,14 @@
 import { useState } from 'react';
 import { Lead, LeadStatus } from '@/lib/types';
 import { getLeads, saveLeads } from '@/lib/storage';
-import { useRouter } from 'next/navigation';
+// import { useRouter } from 'next/navigation';
 
 export default function LeadForm({
   onSuccess,
 }: {
   onSuccess?: () => void;
 }) {
-  const router = useRouter();
+  // const router = useRouter();
 
   const [form, setForm] = useState({
     name: '',
@@ -67,8 +67,7 @@ export default function LeadForm({
         placeholder="Email Address"
         value={form.email}
         onChange={handleChange}
-        className="w-full rounded-md border border-slate-200 px-3 py-2 text-sm
-             focus:outline-none focus:ring-2 focus:ring-slate-900"
+        className="w-full rounded-md border border-slate-200 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-slate-900"
       />
 
       <input
@@ -76,8 +75,7 @@ export default function LeadForm({
         placeholder="Phone (optional)"
         value={form.phone}
         onChange={handleChange}
-        className="w-full rounded-md border border-slate-200 px-3 py-2 text-sm
-             focus:outline-none focus:ring-2 focus:ring-slate-900"
+        className="w-full rounded-md border border-slate-200 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-slate-900"
       />
 
       <input
@@ -85,16 +83,14 @@ export default function LeadForm({
         placeholder="Company (optional)"
         value={form.company}
         onChange={handleChange}
-        className="w-full rounded-md border border-slate-200 px-3 py-2 text-sm
-             focus:outline-none focus:ring-2 focus:ring-slate-900"
+        className="w-full rounded-md border border-slate-200 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-slate-900"
       />
 
       <select
         name="status"
         value={form.status}
         onChange={handleChange}
-        className="w-full rounded-md border border-slate-200 px-3 py-2 text-sm
-             focus:outline-none focus:ring-2 focus:ring-slate-900"
+        className="w-full rounded-md border border-slate-200 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-slate-900"
       >
         <option value="New">New</option>
         <option value="Contacted">Contacted</option>
@@ -103,8 +99,7 @@ export default function LeadForm({
 
       <button
         type="submit"
-        className="w-full bg-slate-900 text-white rounded-md py-2 text-sm
-             hover:bg-slate-800 transition"
+        className="w-full bg-slate-900 text-white rounded-md py-2 text-sm hover:bg-slate-800 transition"
       >
         Save Lead
       </button>
