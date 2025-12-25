@@ -16,7 +16,7 @@ Check out the live app here: [LeadFlow Live](https://leadflow-pied.vercel.app/)
 
 Here’s how the dashboard looks:
 
-![LeadFlow Dashboard](https://via.placeholder.com/800x400?text=LeadFlow+Dashboard+Screenshot)
+![LeadFlow Dashboard](https://leadflow-pied.vercel.app/screenshot.png)
 
 *(Replace the placeholder URL with your actual screenshot image URL if you have one.)*
 
