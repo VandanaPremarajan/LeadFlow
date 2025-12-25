@@ -6,13 +6,13 @@ It allows you to easily manage leads by adding, updating, and tracking their sta
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
 Check out the live app here: [LeadFlow Live](https://leadflow-pied.vercel.app/)
 
 ---
 
-## 🖼 Screenshots
+## Screenshots
 
 Here’s how the dashboard looks:
 
@@ -20,7 +20,7 @@ Here’s how the dashboard looks:
 
 ---
 
-## ⚡ Features
+## Features
 
 - Add new leads with **name, email, phone, company, and status**  
 - Track lead status: **New, Contacted, Converted**  
@@ -30,7 +30,7 @@ Here’s how the dashboard looks:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Next.js 14 (App Router)** – React framework for production  
 - **TypeScript** – Type-safe JavaScript  
@@ -40,7 +40,7 @@ Here’s how the dashboard looks:
 
 ---
 
-## 🚀 Getting Started (Local Development)
+## Getting Started (Local Development)
 
 1. Clone the repository:
 
@@ -73,7 +73,7 @@ pnpm dev
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 - `app/` – Next.js App Router pages  
 - `components/` – React components  
@@ -83,7 +83,7 @@ pnpm dev
 
 ---
 
-## 📝 Notes
+## Notes
 
 - This project uses **local storage**, so data persists per browser.  
 - For production or multi-user support, a backend can be added.  
@@ -91,7 +91,7 @@ pnpm dev
 
 ---
 
-## 📦 Deployment
+## Deployment
 
 LeadFlow is deployed on **Vercel**:
 
@@ -101,7 +101,7 @@ Vercel automatically builds and deploys the app on every push to the `main` bran
 
 ---
 
-## 🔗 Learn More
+## Learn More
 
 - [Next.js Documentation](https://nextjs.org/docs)  
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)  
