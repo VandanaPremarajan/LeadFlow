@@ -22,14 +22,25 @@ export default function Dashboard() {
     });
   }, []);
 
+  const statCards = [
+    { title: 'Total Leads', value: stats.total, color: 'bg-indigo-500' },
+    { title: 'New', value: stats.new, color: 'bg-green-500' },
+    { title: 'Contacted', value: stats.contacted, color: 'bg-yellow-500' },
+    { title: 'Converted', value: stats.converted, color: 'bg-teal-500' },
+  ];
+
   return (
     <div>
-      <h2 className="text-xl font-semibold mb-6">Dashboard</h2>
+      <h2 className="text-2xl font-bold mb-6 text-gray-800">Dashboard</h2>
       <div className="grid grid-cols-1 sm:grid-cols-4 gap-6">
-        <StatCard title="Total Leads" value={stats.total} />
-        <StatCard title="New" value={stats.new} />
-        <StatCard title="Contacted" value={stats.contacted} />
-        <StatCard title="Converted" value={stats.converted} />
+        {statCards.map((card) => (
+          <StatCard
+            key={card.title}
+            title={card.title}
+            value={card.value}
+            color={card.color}
+          />
+        ))}
       </div>
     </div>
   );

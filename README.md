@@ -1,8 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# LeadFlow CRM Dashboard
 
-First, run the development server:
+**LeadFlow** is a lightweight CRM dashboard built with **Next.js** and **TypeScript**.  
+It allows you to easily manage leads by adding, updating, and tracking their status in a clean, user-friendly interface.
+
+---
+
+## 🌐 Live Demo
+
+Check out the live app here: [LeadFlow Live](https://leadflow-pied.vercel.app/)
+
+---
+
+## 🖼 Screenshots
+
+Here’s how the dashboard looks:
+
+![LeadFlow Dashboard](https://via.placeholder.com/800x400?text=LeadFlow+Dashboard+Screenshot)
+
+*(Replace the placeholder URL with your actual screenshot image URL if you have one.)*
+
+---
+
+## ⚡ Features
+
+- Add new leads with **name, email, phone, company, and status**  
+- Track lead status: **New, Contacted, Converted**  
+- Manage leads without any backend (data stored in local storage)  
+- Clean and responsive UI built with **Tailwind CSS**  
+- Professional design suitable for portfolios or small businesses
+
+---
+
+## 🛠 Tech Stack
+
+- **Next.js 14 (App Router)** – React framework for production  
+- **TypeScript** – Type-safe JavaScript  
+- **Tailwind CSS** – Modern utility-first CSS framework  
+- **Local Storage** – Client-side persistence  
+- **Vercel** – Hosting and deployment platform
+
+---
+
+## 🚀 Getting Started (Local Development)
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/VandanaPremarajan/LeadFlow.git
+cd leadflow
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
@@ -10,27 +69,42 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📂 Project Structure
 
-## Learn More
+- `app/` – Next.js App Router pages  
+- `components/` – React components  
+- `lib/` – Utility functions and type definitions  
+- `public/` – Static assets  
+- `.gitignore` – Ignored files and folders  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 Notes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- This project uses **local storage**, so data persists per browser.  
+- For production or multi-user support, a backend can be added.  
+- Tailwind CSS ensures a **professional and responsive design**.  
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📦 Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+LeadFlow is deployed on **Vercel**:
+
+[View Live Demo](https://leadflow-pied.vercel.app/)
+
+Vercel automatically builds and deploys the app on every push to the `main` branch.
+
+---
+
+## 🔗 Learn More
+
+- [Next.js Documentation](https://nextjs.org/docs)  
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)  
+- [Vercel Deployment Docs](https://vercel.com/docs)
